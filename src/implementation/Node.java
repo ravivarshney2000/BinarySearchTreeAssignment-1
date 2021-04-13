@@ -11,4 +11,9 @@ public class Node<E extends Comparable<E>> implements myinterface.Node<E> {
         right=null;
     }
     //complete node class
+    
+    @Override
+    public int compareTo(E o) {
+        return 0;
+    }
 }
